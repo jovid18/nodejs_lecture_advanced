@@ -26,12 +26,12 @@ export class PostsService {
       title,
       content
     );
-    return{
-        postId: createdPost.postId,
-        nickname: createdPost.nickname,
-        title: createdPost.title,
-        createdAt: createdPost.createdAt,
-        updatedAt: createdPost.updatedAt,
-    }
+    return {
+      postId: createdPost.postId,
+      nickname: createdPost.nickname,
+      title: createdPost.title,
+      createdAt: createdPost.createdAt,
+      updatedAt: createdPost.updatedAt,
+    };
   };
 }
