@@ -1,4 +1,4 @@
-import { PostsService } from '../services/posts.service';
+import { PostsService } from '../services/posts.service.js';
 
 export class PostsController {
   postsService = new PostsService();
